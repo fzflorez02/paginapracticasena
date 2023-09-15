@@ -218,7 +218,8 @@ main {
 .container_content .title {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  padding: 0px 230px;
 }
 .container_content .content_definition {
   margin-bottom: 20px;
