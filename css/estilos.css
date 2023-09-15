@@ -311,7 +311,7 @@ nav > ul > li > ul > li > ul > li > a:hover {
 }
 
 footer {
-  background-color: red);
+  background-color: var(--nav_home);
   width: 100%;
   height: 110px;
   display: flex;
