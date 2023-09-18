@@ -56,7 +56,84 @@
     </div>
   </div>
 
-  
+  <main>
+    <section class="container_content">
+      <div class="title">
+        <h1>Desarrollar la arquitectura de software de acuerdo al patrón de diseño seleccionado 
+          - GA4-220501095-AA2-EV05.</h1>
+      </div>
+
+      <div>
+        <h2>La arquitectura de software de acuerdo al patrón de diseño seleccionado es: Aplicación Web.</h2>
+
+        <h3>-Capa de Presentación(Interfaz de usuario).</h3>
+        <p><strong>Descripción:</strong> La interfaz de usuario de una aplicación web debe ser intuitiva, fácil 
+          de usar y diseñada pensando en las necesidades y expectativas de los usuarios. Un diseño cuidadoso 
+          y una navegación lógica pueden mejorar significativamente la experiencia del usuario y la eficacia de la 
+          aplicación web.</p>
+        <p><strong>Tegnologías:</strong> Los lenguajes de programación del lado del cliente que se van a utiliar 
+          son: HTML, CSS Y JavaScript.</p>
+        
+        
+        <h3>-Capa de Lógica de Aplicación(Backend).</h3>
+        <p><strong>Descripción:</strong> La capa de lógica de aplicación de una aplicación web es el núcleo de 
+          la funcionalidad de la aplicación. Es responsable de procesar solicitudes, gestionar la lógica 
+          de negocio, acceder a la capa de datos y garantizar la seguridad y la coherencia de los datos. 
+          Una capa de lógica de aplicación sólida y bien diseñada es esencial para el funcionamiento eficiente 
+          y confiable de una aplicación web.</p>
+        <p><strong>Tegnologías:</strong> El lenguaje de programación para el servidor que se va a utilizar es: 
+            JavaScript a traves de Node.js.</p>
+        
+        <h3>-Capa de Datos.</h3>
+        <p><strong>Descripción:</strong> La capa de datos es esencial para el funcionamiento correcto de una 
+          aplicación web, ya que garantiza la integridad y disponibilidad de los datos utilizados por la 
+          aplicación. Un diseño sólido y seguro de la capa de datos es fundamental para el éxito de la 
+          aplicación y su capacidad para manejar datos de manera eficiente y confiable.</p>
+        <p><strong>Tegnologías:</strong> El sistema de base de datos que se va a utilizar es: MYSQL que es un RDBMS
+            de código abierto ampliamente utilizado.</p>
+        
+        <h3>-Comunicación entre Capas.</h3> 
+        <p>La comunicación más común entre la interfaz de usuario y la capa de lógica de aplicación se realiza 
+          a través de peticiones HTTP. El usuario interactúa con la interfaz de usuario y realiza solicitudes 
+          HTTP (GET, POST, PUT, DELETE) que son manejadas por la capa de lógica de aplicación. Estas solicitudes 
+          contienen información como parámetros, encabezados y, a menudo, datos JSON o formularios que se 
+          utilizan para transmitir información.</p> 
+        
+        <h3>-Patrones de Diseño Utilizados.</h3>
+        <p>El patron de diseño que se tiene pensado hasta el momento es el MVC(Modelo-Vista-Controlador),
+          este es uno de los patrones de seseño más fundamentales para aplicaciones web. Divide la 
+          aplicación en tres componentes principales:
+          <ul>
+            <li><strong>Modelo:</strong> Almacena los datos y la lógica de negocio.</li>
+            <li><strong>Vista:</strong> Encargada de la presentación y la interfaz de usuario.</li>
+            <li><strong>Controlador:</strong> Maneja las solicitudes del usuario, interactúa con el modelo y actualiza la vista.</li>
+          </ul>
+        </p>
+
+        <h3>-Seguridad</h3>
+        <p>La seguridad en una aplicación web es una preocupación crítica, ya que las aplicaciones web son 
+          objetivos frecuentes de ataques cibernéticos. Para proteger tu aplicación web y los datos de tus 
+          usuarios, debes implementar medidas de seguridad en todas las capas de la aplicación. A continuación, 
+          se describen algunas de las mejores prácticas y estrategias de seguridad que debes considerar:</p>
+        <p><strong>Autenticación y Autorización:</strong></p>
+        <ul>
+          <li>Implementa un sistema sólido de autenticación para verificar la identidad de los usuarios. Utiliza contraseñas seguras y considera la autenticación de dos factores (2FA) para una mayor seguridad.</li>
+          <li>Asigna permisos de manera adecuada a los usuarios utilizando un sistema de autorización robusto. Los usuarios solo deben tener acceso a las funciones y los datos para los que tienen permiso explícito.</li>
+        </ul>
+        <p><strong>Manejo de Sesiones y Tokens:</strong></p>
+        <ul>
+          <li>Utiliza tokens seguros (por ejemplo, JSON Web Tokens - JWT) para autenticar a los usuarios y evitar la necesidad de mantener sesiones en el servidor. Esto es especialmente útil en aplicaciones de una sola página (SPAs).</li>
+          <li>Si necesitas mantener sesiones, asegúrate de que las sesiones sean seguras y gestionadas adecuadamente. Implementa medidas como expiración de sesiones, regeneración de tokens y almacenamiento seguro de cookies de sesión.</li>
+        </ul>
+        <p><strong>Protección contra Ataques de Inyección:</strong></p>
+        <ul>
+          <li>Sanitiza y valida todas las entradas de usuario antes de procesarlas. Esto incluye protección contra ataques de inyección SQL, inyección de comandos y otros tipos de inyección de código.</li>
+          <li>Utiliza consultas parametrizadas o ORM para prevenir la inyección SQL en las consultas a la base de datos.</li>
+        </ul>
+      
+      </div>
+    </section>
+  </main>
 
   <footer>
     <div>
